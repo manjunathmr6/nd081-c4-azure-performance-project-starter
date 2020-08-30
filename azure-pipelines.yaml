@@ -48,5 +48,4 @@ stages:
                 fi
                 mv /home/udacityadmin/azagent/_work/1/drop-azurevote/$(Build.BuildId)-azurevote.zip app
                 cd app
-                unzip -o $(Build.BuildId)-azurevote.zip
-                python main.py
+                unzip -o $(Build.BuildId)-azurevote.zip                
