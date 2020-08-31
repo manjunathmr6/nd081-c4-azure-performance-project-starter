@@ -8,18 +8,18 @@ import logging
 from datetime import datetime
 
 # App Insights
- from opencensus.ext.azure.log_exporter import AzureLogHandler
- from opencensus.ext.azure import metrics_exporter
- from opencensus.stats import aggregation as aggregation_module
- from opencensus.stats import measure as measure_module
- from opencensus.stats import stats as stats_module
- from opencensus.stats import view as view_module
- from opencensus.tags import tag_map as tag_map_module
- from opencensus.ext.azure.trace_exporter import AzureExporter
- from opencensus.trace.samplers import ProbabilitySampler
- from opencensus.trace.tracer import Tracer
- from opencensus.ext.flask.flask_middleware import FlaskMiddleware
- from opencensus.trace.samplers import ProbabilitySampler
+from opencensus.ext.azure.log_exporter import AzureLogHandler
+from opencensus.ext.azure import metrics_exporter
+from opencensus.stats import aggregation as aggregation_module
+from opencensus.stats import measure as measure_module
+from opencensus.stats import stats as stats_module
+from opencensus.stats import view as view_module
+from opencensus.tags import tag_map as tag_map_module
+from opencensus.ext.azure.trace_exporter import AzureExporter
+from opencensus.trace.samplers import ProbabilitySampler
+from opencensus.trace.tracer import Tracer
+from opencensus.ext.flask.flask_middleware import FlaskMiddleware
+from opencensus.trace.samplers import ProbabilitySampler
 
 # Logging
 logger = logging.getLogger(__name__)
